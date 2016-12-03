@@ -1,0 +1,11 @@
+.hiddenInfo{
+  display: none;
+}
+
+.floater{
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+}

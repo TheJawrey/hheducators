@@ -1,5 +1,5 @@
-<?php 
-
-include_once 'email_phone.php';
-
+<?php 
+
+include_once 'email_phone.php';
+
 ?>
