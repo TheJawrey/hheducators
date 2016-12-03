@@ -29,7 +29,7 @@ class User_model extends CI_Model
             'email' => $this->input->post('email1'),
             'family_id' => $this->input->post('family_id')
         );
-        khjkhkj;
+
         $this->db->insert('users', $data);
 
         if($this->input->post('add_teacher')){
@@ -124,6 +124,8 @@ class User_model extends CI_Model
         
         return $query;
     }
+
+    //  “’^[0-9].*’”
 
     // gets info for all users based on filter options
     // for use on browse_users page

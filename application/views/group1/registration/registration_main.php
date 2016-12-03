@@ -1,8 +1,6 @@
 
 <?php
-//Changed this to use code ignitor load intead of include.
-$this->load->library('states');
-$statesArr = states::getStates();
+include 'states.php';
 $selSrchCond = "MI";
 
 echo validation_errors();

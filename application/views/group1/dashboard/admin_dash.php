@@ -60,22 +60,7 @@
                             <!-- removed table && kept buttons -->
                     </div>
                 </div>
-                <!-- Semesters Panel END -->
-                
-                <!-- Semesters Panel START -->
-                <div style="padding:0;" class="panel panel-default col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="panel-heading">
-                        Semesters
-                    </div>
-                    <div class="panel-body">    
-                        <button class="btn btn-primary" name="selection" data-toggle="modal" data-target="#add_semester_modal" id="add_user">Add Semester</button>                    
-                        <form action="edit_semester" method="post" style="display: inline-block">
-                            <button type="submit" class="btn btn-info">Edit Semesters</button>
-                        </form>
-                            <!-- removed table && kept buttons -->
-                    </div>
-                </div>
-                <!-- Semesters Panel END -->
+                <!-- Users Panel END -->
             </div>
 
             
@@ -97,11 +82,3 @@
             </div>
         </div>
     </div>
-    
-<div class="modal fade bs-example-modal-lg" tabindex="-1" id="add_semester_modal" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div style="overflow: auto;" class="modal-content">
-        <?php include('application/views/group4/semesters/add.php'); ?>
-    </div>
-  </div>
-</div>

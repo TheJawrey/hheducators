@@ -88,20 +88,6 @@ $route['course_edit'] = 'group3/courses_main/course_edit';
 $route['course_update'] = 'group3/courses_main/course_update';
 
 $route['course_delete'] = 'group3/courses_main/course_delete'; // use this for course_delete page
-
-// GROUP 4 ROUTES
-
-$route['registration'] = 'group4/registration/view';
-$route['select_registration'] = 'group4/registration/select';
-$route['drop'] = 'group4/registration/remove_class';
-$route['register'] = 'group4/registration/add_class';
-
-$route['new_semester'] = 'group4/semesters/add';
-$route['edit_semester'] = 'group4/semesters/edit';
-$route['select_semester'] = 'group4/semesters/select';
-$route['add_class'] = 'group4/semesters/add_class';
-$route['remove_class'] = 'group4/semesters/remove_class';
-
 //***********************
 
 
